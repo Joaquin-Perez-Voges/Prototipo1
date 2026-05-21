@@ -13,14 +13,22 @@ public class GameManagers : MonoBehaviour
     }
     void Start()
     {
-        initialTime = 30;
+        initialTime = 3;
     }
 
     // Update is called once per frame
     void Update()
     {
-        initialTime = initialTime - Time.deltaTime;
+        
+        if (initialTime > 0){
+            initialTime = initialTime - Time.deltaTime;
         UIMgr.UpdateTime(initialTime);
+        }
+        else{
+            UIMgr.UpdateTime(0);
+            Debug.Log("Loss");
+            Destroy(gameObject);
+        }
 
     }
 }

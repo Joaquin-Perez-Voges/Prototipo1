@@ -5,6 +5,11 @@ using UnityEngine;
 public class USBPickUp : MonoBehaviour
 {
     int contadorPuntos = 0;
+    public UIManager UIMgr;
+
+    void Awake(){
+        UIMgr = GameObject.FindObjectOfType<UIManager>();
+    }
     void OnTriggerEnter(Collider other)
     {
         Debug.Log(other.gameObject);
@@ -12,7 +17,7 @@ public class USBPickUp : MonoBehaviour
         {
             contadorPuntos++;
             Destroy(other.gameObject);
-            Debug.Log(contadorPuntos);
+            UIMgr.UpdateScore(contadorPuntos);
         }
     }   
 }

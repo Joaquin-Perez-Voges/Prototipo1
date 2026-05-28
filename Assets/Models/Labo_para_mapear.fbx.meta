@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 88eab50bafa4e7c4f856230a750a7f27
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Escritorio
+    100002: //RootNode
+    100004: Paredes
+    100006: Piso
+    100008: Refe Escala Humana
+    100010: Techo
+    100012: Ventana
+    400000: Escritorio
+    400002: //RootNode
+    400004: Paredes
+    400006: Piso
+    400008: Refe Escala Humana
+    400010: Techo
+    400012: Ventana
+    2100000: MelaminaGris
+    2100002: MetalBlanco
+    2100004: Paredes
+    2100006: Piso
+    2100008: No Name
+    2100010: Techo
+    2100012: Ventana_Marco
+    2100014: Ventana_Vidrio
+    2300000: Escritorio
+    2300002: Paredes
+    2300004: Piso
+    2300006: Refe Escala Humana
+    2300008: Techo
+    2300010: Ventana
+    3300000: Escritorio
+    3300002: Paredes
+    3300004: Piso
+    3300006: Refe Escala Humana
+    3300008: Techo
+    3300010: Ventana
+    4300000: Escritorio
+    4300002: Paredes
+    4300004: Piso
+    4300006: Refe Escala Humana
+    4300008: Techo
+    4300010: Ventana
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MelaminaGris
+    second: {fileID: 2100000, guid: f5557b3cf165fec47b8eeba3d8b32338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalBlanco
+    second: {fileID: 2100000, guid: 8dbd9ad35eebf904f8a3a6e73e720f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 7a4c2d5e55751f74cbf82cc3185cf864, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes
+    second: {fileID: 2100000, guid: 8172ffaca6735de4299c7837367880e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso
+    second: {fileID: 2100000, guid: fba625186471fd042bf21edb5657dc3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: e1be0bd60945d3846ad76e281317d965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventana_Marco
+    second: {fileID: 2100000, guid: 82fbb40a527d9a444b8af9dfd4cfbdb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventana_Vidrio
+    second: {fileID: 2100000, guid: 984169ba09d245a4e8bb46caed0f88d9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

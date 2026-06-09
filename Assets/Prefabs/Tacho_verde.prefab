@@ -22,7 +22,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 9c21570ed0a6e814b8ae836ca2d29220, type: 3}
       propertyPath: m_Name
-      value: Tacho
+      value: Tacho_verde
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9c21570ed0a6e814b8ae836ca2d29220, type: 3}
       propertyPath: m_LocalPosition.x
@@ -67,6 +67,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 9c21570ed0a6e814b8ae836ca2d29220, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9c21570ed0a6e814b8ae836ca2d29220, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c21570ed0a6e814b8ae836ca2d29220, type: 3}

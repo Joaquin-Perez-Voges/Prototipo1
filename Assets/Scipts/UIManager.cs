@@ -7,6 +7,9 @@ public class UIManager : MonoBehaviour
 
 public TextMeshProUGUI txt_Score;
 public TextMeshProUGUI txt_Time;
+public TextMeshProUGUI txt_WinOrLose;
+public Canvas panel_WorL;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,4 +28,16 @@ public TextMeshProUGUI txt_Time;
     public void UpdateTime(float time){
         txt_Time.text = "Time: " + time.ToString("F2");
     }
+    public void WinORLosePanel(bool win, bool show){
+
+        panel_WorL.gameObject.SetActive(show);
+        
+        if (win){
+        txt_WinOrLose.text = "Ganaste! \n Apreta R para reiniciar"; 
+        }
+        if (!win){
+            txt_WinOrLose.text = "Perdiste! \n Apreta R para reiniciar"; 
+        }
+    }
+    
 }

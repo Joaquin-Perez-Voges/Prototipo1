@@ -19,8 +19,11 @@ public class USBPickUp : MonoBehaviour
             Destroy(other.gameObject);
             UIMgr.UpdateScore(contadorPuntos);
         }
-        if(contadorPuntos == 3){
-            Debug.Log("Win");
+        if(contadorPuntos == 5){
+        UIMgr.WinORLosePanel(true, true);
+        UIMgr.UpdateTime(50000000);
+
+
         }
     }   
 }

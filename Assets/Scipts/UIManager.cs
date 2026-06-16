@@ -33,10 +33,10 @@ public Canvas panel_WorL;
         panel_WorL.gameObject.SetActive(show);
         
         if (win){
-        txt_WinOrLose.text = "Ganaste! \n Apreta R para reiniciar"; 
+        txt_WinOrLose.text = "Ganaste! \n Apreta R para Reiniciar"; 
         }
         if (!win){
-            txt_WinOrLose.text = "Perdiste! \n Apreta R para reiniciar"; 
+            txt_WinOrLose.text = "Perdiste! \n Apreta R para Reiniciar"; 
         }
     }
     
